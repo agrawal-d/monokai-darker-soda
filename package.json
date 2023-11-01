@@ -1,12 +1,19 @@
 {
-	"name": "theme-monokai-dark-soda",
-	"displayName": "Monokai Dark Soda",
-	"description": "A dark theme with bright colors",
-	"version": "1.2.0",
-	"publisher": "AdamCaviness",
-	"repository": "https://github.com/AdamCaviness/vs-code-theme-monokai-dark-soda",
-    "icon": "theme-monokai-dark-soda.png",
-	"keywords": ["monokai", "dark", "soda", "theme", "vscode"],
+	"name": "theme-monokai-darker-soda",
+	"displayName": "Monokai Darker Soda",
+	"description": "A darker theme with bright colors and dark status bar",
+	"version": "1.0.0",
+	"publisher": "DivyanshuAgrawal",
+	"repository": "https://github.com/agrawal-d/monokai-darker-soda",
+	"icon": "theme-monokai-darker-soda.png",
+	"keywords": [
+		"monokai",
+		"dark",
+		"darker",
+		"soda",
+		"theme",
+		"vscode"
+	],
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -16,10 +23,13 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Monokai Dark Soda",
+				"label": "Monokai Darker Soda",
 				"uiTheme": "vs-dark",
-				"path": "./themes/monokai-dark-soda-color-theme.json"
+				"path": "./themes/monokai-darker-soda-color-theme.json"
 			}
 		]
+	},
+	"dependencies": {
+		"@vscode/vsce": "^2.22.0"
 	}
 }
